@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-vue-slate-example",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.5.0",
+    "nuxt": "^2.12.2",
+    "reqlim": "^0.0.0",
+    "slate-vue": "0.1.4",
+    "vue-tsx-support": "2.3.3"
+  },
+  "keywords": []
+}
